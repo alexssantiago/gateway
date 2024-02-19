@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{AAACEC52-5611-4FFF-B971-8C05CE34DEAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{285DD335-06EB-42F7-A50F-2367B906CE07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway.Yarp", "src\Gateway.Yarp\Gateway.Yarp.csproj", "{9349162E-A6E0-4459-9AE4-BF520A0296BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9349162E-A6E0-4459-9AE4-BF520A0296BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9349162E-A6E0-4459-9AE4-BF520A0296BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9349162E-A6E0-4459-9AE4-BF520A0296BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9349162E-A6E0-4459-9AE4-BF520A0296BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9349162E-A6E0-4459-9AE4-BF520A0296BA} = {285DD335-06EB-42F7-A50F-2367B906CE07}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1A3118B-5A97-4DF0-88C8-0F0577EA9318}
+	EndGlobalSection
+EndGlobal
